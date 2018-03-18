@@ -1,5 +1,33 @@
-F1::
+Numpad1 & Numpad4::
+	SetDolphinController(1, "gc")
+Return
+
+Numpad1 & Numpad5::
+	SetDolphinController(1, "gc2")
+Return
+
+Numpad1 & Numpad7::
+	SetDolphinController(1, "xboxSC")
+Return
+
+Numpad1 & Numpad8::
 	SetDolphinController(1, "xboxSC2")
+Return
+
+Numpad2 & Numpad4::
+	SetDolphinController(2, "gc")
+Return
+
+Numpad2 & Numpad5::
+	SetDolphinController(2, "gc2")
+Return
+
+Numpad2 & Numpad7::
+	SetDolphinController(2, "xboxSC")
+Return
+
+Numpad2 & Numpad8::
+	SetDolphinController(2, "xboxSC2")
 Return
 
 F2::
