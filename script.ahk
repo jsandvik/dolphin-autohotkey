@@ -14,6 +14,14 @@ Numpad1 & Numpad8::
 	SetDolphinController(1, "xboxSC2")
 Return
 
+Numpad1 & Numpad9::
+	SetDolphinController(1, "ps4SC")
+Return
+
+Numpad1 & Numpad6::
+	SetDolphinController(1, "fightstick")
+Return
+
 Numpad2 & Numpad4::
 	SetDolphinController(2, "gc")
 Return
@@ -30,8 +38,12 @@ Numpad2 & Numpad8::
 	SetDolphinController(2, "xboxSC2")
 Return
 
-F2::
-	Send, {Enter}
+Numpad2 & Numpad9::
+	SetDolphinController(2, "ps4SC")
+Return
+
+Numpad2 & Numpad6::
+	SetDolphinController(2, "fightstick")
 Return
 
 SetDolphinController(PlayerNumber, ProfileName)
@@ -70,6 +82,8 @@ SetDolphinController(PlayerNumber, ProfileName)
 	WinWaitClose, GameCube Controller Configuration, , 5
 
 	ControlClick, Button21, Dolphin Controller Configuration ;close
+
+	WinWaitClose, Dolphin Controller Configuration, , 5
 
 	Send, {Alt down}{tab}
 	Send, {Alt up}
